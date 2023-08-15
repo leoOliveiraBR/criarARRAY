@@ -1,0 +1,15 @@
+* {
+    margin:0;
+
+}
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
