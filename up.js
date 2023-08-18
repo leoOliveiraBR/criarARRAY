@@ -7,11 +7,12 @@ class produto{
     }
     adicionar() {
         alert("vamos adicionar um produto!");
+        // ...
 
     }
     excluir(){
 
-
+      //...
 
         alert('item deletado!');
     }
