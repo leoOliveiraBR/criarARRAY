@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    
+    ]
 
     <script src="up.js"></script>
 </head>
@@ -36,10 +36,10 @@
             </div>
         <div class="lineInput">
             <label>valor</label>
-            <input type="text" id="valor" placeholder="valor do produto">
+            <input type="text" id="valor" placeholder="nome do produto">
         </div> 
         <button onclick="produto.adicionar()">adicionar</button>
-        <button onclick="produto.adicionar()">deletar</button>
+        <button onclick="produto.cancelar()">deletar</button>
        </div>
 
        <div class="content">
@@ -50,11 +50,8 @@
                 <th>valor</th>
                 <th class="center">ações</th>
             </thead>
-            <tbody>
-                <tr>
-                 
-                </tr>
-
+            <tbody id="tbody">
+               
             </tbody>
         </table>
        </div>
