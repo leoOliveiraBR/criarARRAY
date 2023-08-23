@@ -1,65 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projeto java script</title>
+    <title>projeto javascript</title>
 
-
-    <link rel="stylesheet" href="style,.css">
+    <link rel="stylesheet" href="css/style,.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    ]
-
-    <script src="up.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <script src="js/up.js"></script>
 </head>
 
 <body>
-
     <header>
         <h1>minha loja 1.0</h1>
     </header>
 
     <main>
-        <div class="title"></div>
-        <h2>Produto</h2>
-        <span>lista de produtos da minha loja</span>
+        <div class="title"> 
+            <h2>Produto</h2>
+            <span>lista de produtos da minha loja</span>
         </div>
 
         <div class="card">
             <div class="lineInput">
                 <label>produto</label>
-                <input type="text" id="produto" placeholder="valor do produto">
+                <input type="text" id="produto" placeholder="nome do produto">
             </div>
-        <div class="lineInput">
-            <label>valor</label>
-            <input type="text" id="valor" placeholder="nome do produto">
-        </div> 
-        <button onclick="produto.adicionar()">adicionar</button>
-        <button onclick="produto.cancelar()">deletar</button>
-       </div>
+            <div class="lineInput">
+                <label>valor</label>
+                <input type="text" id="valor" placeholder="valor do produto">
+            </div>
+            <button onclick="produto.salvar()">adicionar</button>
+            <button onclick="produto.cancelar()">cancelar</button>
+        </div>
 
-       <div class="content">
-        <table border="1">
-            <thead>
-                <th class="center">ID</th>
-                <th>produto</th>
-                <th>valor</th>
-                <th class="center">ações</th>
-            </thead>
-            <tbody id="tbody">
-               
-            </tbody>
-        </table>
-       </div>
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th class="center">ID</th>
+                        <th>produto</th>
+                        <th>valor</th>
+                        <th class="center">ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
     </main>
-
-
-
-
 </body>
 
 </html>
