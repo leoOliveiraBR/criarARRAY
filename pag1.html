@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto javascript</title>
 
-    <link rel="stylesheet" href="css/style,.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -33,9 +33,9 @@
             </div>
             <div class="lineInput">
                 <label>valor</label>
-                <input type="text" id="valor" placeholder="valor do produto">
+                <input type="number" id="preco" placeholder="valor do produto">
             </div>
-            <button onclick="produto.salvar()">adicionar</button>
+            <button onclick="produto.salvar()" id="btn1">adicionar</button>
             <button onclick="produto.cancelar()">cancelar</button>
         </div>
 
